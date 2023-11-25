@@ -1,1 +1,7 @@
+server:
+  port: 9990
 
+# 日志
+logging:
+  pattern:
+    console: "%red(%d{HH:mm:ss.SSS}) [%-5level] %green([%logger{10}:%red(%line)]):%m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
